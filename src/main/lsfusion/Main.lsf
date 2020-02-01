@@ -5,11 +5,15 @@ REQUIRE System;
 CLASS Team 'Команда';
 number 'Номер' = DATA INTEGER  (Team) IN id;
 WHEN SET(Team t IS Team) AND NOT number(t) DO {
-    number(t) <- (GROUP MAX number( Team tt)) (+) 1;
+    number(t) <- (GROUP MAX number(Team tt)) (+) 1;
 }
 name 'Название команды' = DATA STRING[30] (Team) IN base;
 
 CLASS Players 'Игроки';
+number 'Номер' = DATA INTEGER  (Players) IN id;
+WHEN SET(Players p IS Players) AND NOT number(p) DO {
+    number(p) <- (GROUP MAX number(Players pp)) (+) 1;
+}
 playerName 'Игрок' = DATA STRING[100] (Players) IN base;
 team = DATA Team (Players);
 teamName 'Команда' (Players p) = name(team(p));
@@ -38,6 +42,10 @@ looser(Game game) = IF hostGoals(game) > guestGoals(game)
     ELSE hostTeam(game);
 
 CLASS Goals 'Голы';
+number 'Номер' = DATA INTEGER (Goals) IN id;
+WHEN SET(Goals g IS Goals) AND NOT number(g) DO {
+    number(g) <- (GROUP MAX number(Goals gg)) (+) 1;
+}
 date = DATA Game (Goals);
 dateGame 'Дата' (Goals g) = date(date(g));
 player = DATA Players (Goals);

@@ -322,3 +322,143 @@
 01 фев 2020 23:44:41,676  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changePropertyOrder, rq: 0] finished
 01 фев 2020 23:44:41,676  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 0] for request #0
 01 фев 2020 23:44:41,677  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 0] for request #0
+01 фев 2020 23:48:42,628  INFO PausableInvocationsLogger - Acquiring request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+01 фев 2020 23:48:42,628  INFO PausableInvocationsLogger - Acquired request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+01 фев 2020 23:48:42,630  INFO PausableInvocationsLogger - Run invocation: [f: navigator, m: executeNavigatorAction, rq: 0]
+01 фев 2020 23:48:42,696  INFO PausableInvocationsLogger - Invocation [f: navigator, m: executeNavigatorAction, rq: 0] finished
+01 фев 2020 23:48:42,696  INFO PausableInvocationsLogger - Releasing request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+01 фев 2020 23:48:42,696  INFO PausableInvocationsLogger - Released request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+02 фев 2020 00:02:14,656  INFO PausableInvocationsLogger - Acquiring request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
+02 фев 2020 00:02:14,656  INFO PausableInvocationsLogger - Acquired request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
+02 фев 2020 00:02:14,658  INFO PausableInvocationsLogger - Run invocation: [f: navigator, m: executeNavigatorAction, rq: 1]
+02 фев 2020 00:02:14,914  INFO PausableInvocationsLogger - Interaction [f: navigator, m: executeNavigatorAction, rq: 1] called delayUserInteraction: FormClientAction[modalitType: DOCKED]
+02 фев 2020 00:02:14,914  INFO PausableInvocationsLogger - Invocation [f: navigator, m: executeNavigatorAction, rq: 1] finished
+02 фев 2020 00:02:14,914  INFO PausableInvocationsLogger - Releasing request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
+02 фев 2020 00:02:14,914  INFO PausableInvocationsLogger - Released request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
+02 фев 2020 00:02:17,706  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: changeProperty, rq: 0] for request #0
+02 фев 2020 00:02:17,707  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: changeProperty, rq: 0] for request #0
+02 фев 2020 00:02:17,709  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: changeProperty, rq: 0]
+02 фев 2020 00:02:17,794  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changeProperty, rq: 0] finished
+02 фев 2020 00:02:17,794  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changeProperty, rq: 0] for request #0
+02 фев 2020 00:02:17,795  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changeProperty, rq: 0] for request #0
+02 фев 2020 00:02:19,027  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: changePageSize, rq: 1] for request #1
+02 фев 2020 00:02:19,027  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: changePageSize, rq: 1] for request #1
+02 фев 2020 00:02:19,027  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: changePageSize, rq: 1]
+02 фев 2020 00:02:19,030  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changePageSize, rq: 1] finished
+02 фев 2020 00:02:19,030  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changePageSize, rq: 1] for request #1
+02 фев 2020 00:02:19,030  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changePageSize, rq: 1] for request #1
+02 фев 2020 00:02:26,749  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: changeProperty, rq: 2] for request #2
+02 фев 2020 00:02:26,749  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: changeProperty, rq: 2] for request #2
+02 фев 2020 00:02:26,749  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: changeProperty, rq: 2]
+02 фев 2020 00:02:26,819  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changeProperty, rq: 2] finished
+02 фев 2020 00:02:26,819  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changeProperty, rq: 2] for request #2
+02 фев 2020 00:02:26,819  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changeProperty, rq: 2] for request #2
+02 фев 2020 00:02:29,480  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: executeEditAction, rq: 3] for request #3
+02 фев 2020 00:02:29,481  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: executeEditAction, rq: 3] for request #3
+02 фев 2020 00:02:29,482  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: executeEditAction, rq: 3]
+02 фев 2020 00:02:29,656  INFO PausableInvocationsLogger - Interaction [f: Main.TeamsList, m: executeEditAction, rq: 3] called delayUserInteraction: LogMessageClientAction[msg: Изменения были удачно записаны..., data: []]
+02 фев 2020 00:02:29,685  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: executeEditAction, rq: 3] finished
+02 фев 2020 00:02:29,686  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: executeEditAction, rq: 3] for request #3
+02 фев 2020 00:02:29,686  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: executeEditAction, rq: 3] for request #3
+02 фев 2020 00:02:33,185  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: changeProperty, rq: 4] for request #4
+02 фев 2020 00:02:33,185  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: changeProperty, rq: 4] for request #4
+02 фев 2020 00:02:33,185  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: changeProperty, rq: 4]
+02 фев 2020 00:02:33,220  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changeProperty, rq: 4] finished
+02 фев 2020 00:02:33,220  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changeProperty, rq: 4] for request #4
+02 фев 2020 00:02:33,220  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changeProperty, rq: 4] for request #4
+02 фев 2020 00:02:38,105  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: changeProperty, rq: 5] for request #5
+02 фев 2020 00:02:38,105  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: changeProperty, rq: 5] for request #5
+02 фев 2020 00:02:38,105  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: changeProperty, rq: 5]
+02 фев 2020 00:02:38,138  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changeProperty, rq: 5] finished
+02 фев 2020 00:02:38,138  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changeProperty, rq: 5] for request #5
+02 фев 2020 00:02:38,139  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changeProperty, rq: 5] for request #5
+02 фев 2020 00:02:40,053  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: executeEditAction, rq: 6] for request #6
+02 фев 2020 00:02:40,053  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: executeEditAction, rq: 6] for request #6
+02 фев 2020 00:02:40,054  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: executeEditAction, rq: 6]
+02 фев 2020 00:02:40,152  INFO PausableInvocationsLogger - Interaction [f: Main.TeamsList, m: executeEditAction, rq: 6] called delayUserInteraction: LogMessageClientAction[msg: Изменения были удачно записаны..., data: []]
+02 фев 2020 00:02:40,205  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: executeEditAction, rq: 6] finished
+02 фев 2020 00:02:40,205  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: executeEditAction, rq: 6] for request #6
+02 фев 2020 00:02:40,205  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: executeEditAction, rq: 6] for request #6
+02 фев 2020 00:03:02,658  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 7] for request #7
+02 фев 2020 00:03:02,658  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 7] for request #7
+02 фев 2020 00:03:02,658  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: changePropertyOrder, rq: 7]
+02 фев 2020 00:03:02,708  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changePropertyOrder, rq: 7] finished
+02 фев 2020 00:03:02,708  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 7] for request #7
+02 фев 2020 00:03:02,708  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 7] for request #7
+02 фев 2020 00:03:05,928  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 8] for request #8
+02 фев 2020 00:03:05,928  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 8] for request #8
+02 фев 2020 00:03:05,928  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: changePropertyOrder, rq: 8]
+02 фев 2020 00:03:05,964  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changePropertyOrder, rq: 8] finished
+02 фев 2020 00:03:05,964  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 8] for request #8
+02 фев 2020 00:03:05,964  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 8] for request #8
+02 фев 2020 00:03:08,801  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 9] for request #9
+02 фев 2020 00:03:08,801  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 9] for request #9
+02 фев 2020 00:03:08,801  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: changePropertyOrder, rq: 9]
+02 фев 2020 00:03:08,835  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changePropertyOrder, rq: 9] finished
+02 фев 2020 00:03:08,835  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 9] for request #9
+02 фев 2020 00:03:08,835  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 9] for request #9
+02 фев 2020 00:03:13,060  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 10] for request #10
+02 фев 2020 00:03:13,060  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 10] for request #10
+02 фев 2020 00:03:13,060  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: changePropertyOrder, rq: 10]
+02 фев 2020 00:03:13,093  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changePropertyOrder, rq: 10] finished
+02 фев 2020 00:03:13,093  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 10] for request #10
+02 фев 2020 00:03:13,093  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 10] for request #10
+02 фев 2020 00:03:16,128  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 11] for request #11
+02 фев 2020 00:03:16,128  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 11] for request #11
+02 фев 2020 00:03:16,128  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: changePropertyOrder, rq: 11]
+02 фев 2020 00:03:16,151  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changePropertyOrder, rq: 11] finished
+02 фев 2020 00:03:16,151  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 11] for request #11
+02 фев 2020 00:03:16,151  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 11] for request #11
+02 фев 2020 00:03:22,277  INFO PausableInvocationsLogger - Acquiring request lock for [f: navigator, m: executeNavigatorAction, rq: 2] for request #2
+02 фев 2020 00:03:22,277  INFO PausableInvocationsLogger - Acquired request lock for [f: navigator, m: executeNavigatorAction, rq: 2] for request #2
+02 фев 2020 00:03:22,279  INFO PausableInvocationsLogger - Run invocation: [f: navigator, m: executeNavigatorAction, rq: 2]
+02 фев 2020 00:03:22,397  INFO PausableInvocationsLogger - Interaction [f: navigator, m: executeNavigatorAction, rq: 2] called delayUserInteraction: FormClientAction[modalitType: DOCKED]
+02 фев 2020 00:03:22,398  INFO PausableInvocationsLogger - Invocation [f: navigator, m: executeNavigatorAction, rq: 2] finished
+02 фев 2020 00:03:22,398  INFO PausableInvocationsLogger - Releasing request lock for [f: navigator, m: executeNavigatorAction, rq: 2] for request #2
+02 фев 2020 00:03:22,398  INFO PausableInvocationsLogger - Released request lock for [f: navigator, m: executeNavigatorAction, rq: 2] for request #2
+02 фев 2020 00:03:26,513  INFO PausableInvocationsLogger - Acquiring request lock for [f: navigator, m: executeNavigatorAction, rq: 3] for request #3
+02 фев 2020 00:03:26,514  INFO PausableInvocationsLogger - Acquired request lock for [f: navigator, m: executeNavigatorAction, rq: 3] for request #3
+02 фев 2020 00:03:26,514  INFO PausableInvocationsLogger - Run invocation: [f: navigator, m: executeNavigatorAction, rq: 3]
+02 фев 2020 00:03:26,579  INFO PausableInvocationsLogger - Interaction [f: navigator, m: executeNavigatorAction, rq: 3] called delayUserInteraction: FormClientAction[modalitType: DOCKED]
+02 фев 2020 00:03:26,579  INFO PausableInvocationsLogger - Invocation [f: navigator, m: executeNavigatorAction, rq: 3] finished
+02 фев 2020 00:03:26,579  INFO PausableInvocationsLogger - Releasing request lock for [f: navigator, m: executeNavigatorAction, rq: 3] for request #3
+02 фев 2020 00:03:26,580  INFO PausableInvocationsLogger - Released request lock for [f: navigator, m: executeNavigatorAction, rq: 3] for request #3
+02 фев 2020 00:03:28,441  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.PlayersList, m: changeProperty, rq: 0] for request #0
+02 фев 2020 00:03:28,441  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.PlayersList, m: changeProperty, rq: 0] for request #0
+02 фев 2020 00:03:28,442  INFO PausableInvocationsLogger - Run invocation: [f: Main.PlayersList, m: changeProperty, rq: 0]
+02 фев 2020 00:03:28,479  INFO PausableInvocationsLogger - Invocation [f: Main.PlayersList, m: changeProperty, rq: 0] finished
+02 фев 2020 00:03:28,479  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.PlayersList, m: changeProperty, rq: 0] for request #0
+02 фев 2020 00:03:28,479  INFO PausableInvocationsLogger - Released request lock for [f: Main.PlayersList, m: changeProperty, rq: 0] for request #0
+02 фев 2020 00:03:29,624  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.PlayersList, m: changePageSize, rq: 1] for request #1
+02 фев 2020 00:03:29,625  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.PlayersList, m: changePageSize, rq: 1] for request #1
+02 фев 2020 00:03:29,625  INFO PausableInvocationsLogger - Run invocation: [f: Main.PlayersList, m: changePageSize, rq: 1]
+02 фев 2020 00:03:29,626  INFO PausableInvocationsLogger - Invocation [f: Main.PlayersList, m: changePageSize, rq: 1] finished
+02 фев 2020 00:03:29,626  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.PlayersList, m: changePageSize, rq: 1] for request #1
+02 фев 2020 00:03:29,626  INFO PausableInvocationsLogger - Released request lock for [f: Main.PlayersList, m: changePageSize, rq: 1] for request #1
+02 фев 2020 00:03:32,085  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.PlayersList, m: changeProperty, rq: 2] for request #2
+02 фев 2020 00:03:32,085  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.PlayersList, m: changeProperty, rq: 2] for request #2
+02 фев 2020 00:03:32,086  INFO PausableInvocationsLogger - Run invocation: [f: Main.PlayersList, m: changeProperty, rq: 2]
+02 фев 2020 00:03:32,127  INFO PausableInvocationsLogger - Invocation [f: Main.PlayersList, m: changeProperty, rq: 2] finished
+02 фев 2020 00:03:32,127  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.PlayersList, m: changeProperty, rq: 2] for request #2
+02 фев 2020 00:03:32,127  INFO PausableInvocationsLogger - Released request lock for [f: Main.PlayersList, m: changeProperty, rq: 2] for request #2
+02 фев 2020 00:03:32,354  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.PlayersList, m: executeEditAction, rq: 3] for request #3
+02 фев 2020 00:03:32,354  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.PlayersList, m: executeEditAction, rq: 3] for request #3
+02 фев 2020 00:03:32,355  INFO PausableInvocationsLogger - Run invocation: [f: Main.PlayersList, m: executeEditAction, rq: 3]
+02 фев 2020 00:03:32,444  INFO PausableInvocationsLogger - Interaction [f: Main.PlayersList, m: executeEditAction, rq: 3] called pauseForUserInteraction: [FormClientAction[modalitType: DIALOG_MODAL]]
+02 фев 2020 00:03:33,695  INFO PausableInvocationsLogger - Acquiring request lock for [f: _FORM_13807, m: changePageSize, rq: 0] for request #0
+02 фев 2020 00:03:33,695  INFO PausableInvocationsLogger - Acquired request lock for [f: _FORM_13807, m: changePageSize, rq: 0] for request #0
+02 фев 2020 00:03:33,697  INFO PausableInvocationsLogger - Run invocation: [f: _FORM_13807, m: changePageSize, rq: 0]
+02 фев 2020 00:03:33,700  INFO PausableInvocationsLogger - Invocation [f: _FORM_13807, m: changePageSize, rq: 0] finished
+02 фев 2020 00:03:33,700  INFO PausableInvocationsLogger - Releasing request lock for [f: _FORM_13807, m: changePageSize, rq: 0] for request #0
+02 фев 2020 00:03:33,701  INFO PausableInvocationsLogger - Released request lock for [f: _FORM_13807, m: changePageSize, rq: 0] for request #0
+02 фев 2020 00:03:46,278  INFO PausableInvocationsLogger - Acquiring request lock for [f: _FORM_13807, m: executeEditAction, rq: 1] for request #1
+02 фев 2020 00:03:46,278  INFO PausableInvocationsLogger - Acquired request lock for [f: _FORM_13807, m: executeEditAction, rq: 1] for request #1
+02 фев 2020 00:03:46,278  INFO PausableInvocationsLogger - Run invocation: [f: _FORM_13807, m: executeEditAction, rq: 1]
+02 фев 2020 00:03:46,282  INFO PausableInvocationsLogger - Interaction [f: _FORM_13807, m: executeEditAction, rq: 1] called delayUserInteraction: lsfusion.interop.action.HideFormClientAction@286d5abb
+02 фев 2020 00:03:46,284  INFO PausableInvocationsLogger - Invocation [f: _FORM_13807, m: executeEditAction, rq: 1] finished
+02 фев 2020 00:03:46,284  INFO PausableInvocationsLogger - Releasing request lock for [f: _FORM_13807, m: executeEditAction, rq: 1] for request #1
+02 фев 2020 00:03:46,284  INFO PausableInvocationsLogger - Released request lock for [f: _FORM_13807, m: executeEditAction, rq: 1] for request #1
+02 фев 2020 00:03:46,387  INFO PausableInvocationsLogger - Interaction [f: Main.PlayersList, m: executeEditAction, rq: 3] resumed after userInteraction: [null]
+02 фев 2020 00:03:46,387  INFO PausableInvocationsLogger - Invocation [f: Main.PlayersList, m: executeEditAction, rq: 3] finished
+02 фев 2020 00:03:46,387  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.PlayersList, m: executeEditAction, rq: 3] for request #3
+02 фев 2020 00:03:46,387  INFO PausableInvocationsLogger - Released request lock for [f: Main.PlayersList, m: executeEditAction, rq: 3] for request #3

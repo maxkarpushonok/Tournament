@@ -1234,3 +1234,14 @@ Subsequent errors (if any) could not be found.
 01 фев 2020 23:48:40,757  INFO StartLogger - Synchronizing parents
 01 фев 2020 23:48:40,757  INFO StartLogger - Synchronizing property draws
 01 фев 2020 23:48:40,759  INFO StartLogger - synchronizeTables integration service started
+01 фев 2020 23:48:53,157  INFO StartLogger - synchronizeTables finished
+01 фев 2020 23:48:53,158  INFO StartLogger - Recalculating Stats at first start
+01 фев 2020 23:48:53,159  INFO StartLogger - Writing modules hash
+01 фев 2020 23:48:53,159  INFO StartLogger - Writing modulesHash f28e61ff
+01 фев 2020 23:48:53,219  INFO StartLogger - Writing modulesHash finished successfully
+01 фев 2020 23:48:53,225  INFO StartLogger - Obsolete caches were successfully cleaned
+01 фев 2020 23:48:53,227  INFO StartLogger - Logics instance has successfully started
+01 фев 2020 23:48:53,229  INFO StartLogger - Desktop Client is available at:
+01 фев 2020 23:48:53,229  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-3.0.jnlp
+01 фев 2020 23:48:53,229  INFO StartLogger - Installer for Windows (without auto update): https://download.lsfusion.org/exe/lsfusion-desktop-3.0-x64.exe
+01 фев 2020 23:48:53,230  INFO StartLogger - Server has successfully started in 37158 ms.
