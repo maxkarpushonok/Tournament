@@ -1,0 +1,2 @@
+01 фев 2020 19:58:41,640 system - system - system  INFO SQLHandLogger - TABLE DOES NOT EXIST {}
+01 фев 2020 19:58:50,586 system - system - system  INFO SQLHandLogger - TRANSACTION  lsfusion.server.data.sql.exception.SQLConflictException: UPDATE_CONFLICTUPDATE _auto SET Time_currentDate=CAST('2020-02-01 +03' AS date) FROM dumb WHERE 1=1

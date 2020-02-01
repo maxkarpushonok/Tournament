@@ -1,0 +1,1 @@
+01 фев 2020 19:58:50,586 system - system - system  INFO SQLConflictLogger - TRANSACTION  lsfusion.server.data.sql.exception.SQLConflictException: UPDATE_CONFLICT UPDATE _auto SET Time_currentDate=CAST('2020-02-01 +03' AS date) FROM dumb WHERE 1=1

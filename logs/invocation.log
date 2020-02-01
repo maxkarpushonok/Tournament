@@ -1,0 +1,13 @@
+01 фев 2020 19:59:02,144  INFO PausableInvocationsLogger - Acquiring request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+01 фев 2020 19:59:02,144  INFO PausableInvocationsLogger - Acquired request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+01 фев 2020 19:59:02,144  INFO PausableInvocationsLogger - Run invocation: [f: navigator, m: executeNavigatorAction, rq: 0]
+01 фев 2020 19:59:02,175  INFO PausableInvocationsLogger - Invocation [f: navigator, m: executeNavigatorAction, rq: 0] finished
+01 фев 2020 19:59:02,175  INFO PausableInvocationsLogger - Releasing request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+01 фев 2020 19:59:02,175  INFO PausableInvocationsLogger - Released request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+01 фев 2020 19:59:06,283  INFO PausableInvocationsLogger - Acquiring request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
+01 фев 2020 19:59:06,283  INFO PausableInvocationsLogger - Acquired request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
+01 фев 2020 19:59:06,283  INFO PausableInvocationsLogger - Run invocation: [f: navigator, m: executeNavigatorAction, rq: 1]
+01 фев 2020 19:59:06,628  INFO PausableInvocationsLogger - Interaction [f: navigator, m: executeNavigatorAction, rq: 1] called delayUserInteraction: FormClientAction[modalitType: DOCKED]
+01 фев 2020 19:59:06,628  INFO PausableInvocationsLogger - Invocation [f: navigator, m: executeNavigatorAction, rq: 1] finished
+01 фев 2020 19:59:06,628  INFO PausableInvocationsLogger - Releasing request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
+01 фев 2020 19:59:06,628  INFO PausableInvocationsLogger - Released request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
