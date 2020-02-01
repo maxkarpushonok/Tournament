@@ -1,0 +1,58 @@
+01 фев 2020 20:08:19,035 ERROR StartLogger - Exception while starting logics instance: [error]:	Main:137:16 form 'orders' is not found
+Subsequent errors (if any) could not be found.
+01 фев 2020 20:29:15,576 ERROR LogicsModule - lsfusion.gwt.client.base.exception.RemoteRetryException no such object in table at '01.02.20 20:29' from '0:0:0:0:0:0:0:1 - web': 
+null
+	at java.lang.Throwable.Throwable(Throwable.java:60)
+	at java.lang.Exception.Exception(Exception.java:25)
+	at net.customware.gwt.dispatch.shared.DispatchException.DispatchException(DispatchException.java:15)
+	at lsfusion.gwt.client.base.exception.RemoteRetryException.RemoteRetryException(RemoteRetryException.java:8)
+	at lsfusion.gwt.client.base.exception.RemoteRetryException_FieldSerializer.instantiate(RemoteRetryException_FieldSerializer.java:17)
+	at com.google.gwt.user.client.rpc.impl.SerializerBase$MethodMap.$instantiate(SerializerBase.java:55)
+	at com.google.gwt.user.client.rpc.impl.SerializerBase.$instantiate(SerializerBase.java:112)
+	at com.google.gwt.user.client.rpc.impl.AbstractSerializationStreamReader.$readObject(AbstractSerializationStreamReader.java:129)
+	at com.google.gwt.user.client.rpc.impl.RequestCallbackAdapter.$onResponseReceived(RequestCallbackAdapter.java:216)
+	at com.google.gwt.http.client.Request.$fireOnResponseReceived(Request.java:250)
+	at com.google.gwt.http.client.RequestBuilder$1.onReadyStateChange(RequestBuilder.java:412)
+	at Unknown.anonymous(Unknown Source)
+	at com.google.gwt.core.client.impl.Impl.apply(Impl.java:309)
+	at com.google.gwt.core.client.impl.Impl.entry0(Impl.java:368)
+	at Unknown.anonymous(Unknown Source)
+
+01 фев 2020 22:13:41,930 ERROR LogicsModule - lsfusion.gwt.client.base.exception.RemoteRetryException no such object in table at '01.02.20 22:13' from '0:0:0:0:0:0:0:1 - web': 
+null
+	at java.lang.Throwable.Throwable(Throwable.java:60)
+	at java.lang.Exception.Exception(Exception.java:25)
+	at net.customware.gwt.dispatch.shared.DispatchException.DispatchException(DispatchException.java:15)
+	at lsfusion.gwt.client.base.exception.RemoteRetryException.RemoteRetryException(RemoteRetryException.java:8)
+	at lsfusion.gwt.client.base.exception.RemoteRetryException_FieldSerializer.instantiate(RemoteRetryException_FieldSerializer.java:17)
+	at com.google.gwt.user.client.rpc.impl.SerializerBase$MethodMap.$instantiate(SerializerBase.java:55)
+	at com.google.gwt.user.client.rpc.impl.SerializerBase.$instantiate(SerializerBase.java:112)
+	at com.google.gwt.user.client.rpc.impl.AbstractSerializationStreamReader.$readObject(AbstractSerializationStreamReader.java:129)
+	at com.google.gwt.user.client.rpc.impl.RequestCallbackAdapter.$onResponseReceived(RequestCallbackAdapter.java:216)
+	at com.google.gwt.http.client.Request.$fireOnResponseReceived(Request.java:250)
+	at com.google.gwt.http.client.RequestBuilder$1.onReadyStateChange(RequestBuilder.java:412)
+	at Unknown.anonymous(Unknown Source)
+	at com.google.gwt.core.client.impl.Impl.apply(Impl.java:309)
+	at com.google.gwt.core.client.impl.Impl.entry0(Impl.java:368)
+	at Unknown.anonymous(Unknown Source)
+
+01 фев 2020 22:18:20,203 ERROR LogicsModule - lsfusion.gwt.client.base.exception.RemoteRetryException no such object in table at '01.02.20 22:18' from '0:0:0:0:0:0:0:1 - web': 
+null
+	at java.lang.Throwable.Throwable(Throwable.java:60)
+	at java.lang.Exception.Exception(Exception.java:25)
+	at net.customware.gwt.dispatch.shared.DispatchException.DispatchException(DispatchException.java:15)
+	at lsfusion.gwt.client.base.exception.RemoteRetryException.RemoteRetryException(RemoteRetryException.java:8)
+	at lsfusion.gwt.client.base.exception.RemoteRetryException_FieldSerializer.instantiate(RemoteRetryException_FieldSerializer.java:17)
+	at com.google.gwt.user.client.rpc.impl.SerializerBase$MethodMap.$instantiate(SerializerBase.java:55)
+	at com.google.gwt.user.client.rpc.impl.SerializerBase.$instantiate(SerializerBase.java:112)
+	at com.google.gwt.user.client.rpc.impl.AbstractSerializationStreamReader.$readObject(AbstractSerializationStreamReader.java:129)
+	at com.google.gwt.user.client.rpc.impl.RequestCallbackAdapter.$onResponseReceived(RequestCallbackAdapter.java:216)
+	at com.google.gwt.http.client.Request.$fireOnResponseReceived(Request.java:250)
+	at com.google.gwt.http.client.RequestBuilder$1.onReadyStateChange(RequestBuilder.java:412)
+	at Unknown.anonymous(Unknown Source)
+	at com.google.gwt.core.client.impl.Impl.apply(Impl.java:309)
+	at com.google.gwt.core.client.impl.Impl.entry0(Impl.java:368)
+	at Unknown.anonymous(Unknown Source)
+
+01 фев 2020 22:48:55,328 ERROR StartLogger - Exception while starting logics instance: [error]:	Main:139:18 no viable alternative at input ')'
+
