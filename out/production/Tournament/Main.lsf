@@ -3,6 +3,10 @@ MODULE Main;
 REQUIRE System;
 
 CLASS Team 'Команда';
+number 'Номер' = DATA INTEGER  (Team) IN id;
+WHEN SET(Team t IS Team) AND NOT number(t) DO {
+    number(t) <- (GROUP MAX number( Team tt)) (+) 1;
+}
 name 'Название команды' = DATA STRING[30] (Team) IN base;
 
 CLASS Players 'Игроки';
@@ -11,6 +15,10 @@ team = DATA Team (Players);
 teamName 'Команда' (Players p) = name(team(p));
 
 CLASS Game 'Игра';
+number 'Номер' = DATA INTEGER (Game) IN id;
+WHEN SET(Game g IS Game) AND NOT number(g) DO {
+    number(g) <- (GROUP MAX number(Game gg)) (+) 1;
+}
 date 'Дата' = DATA DATE (Game) IN base;
 hostTeam = DATA Team (Game);
 guestTeam = DATA Team (Game);
@@ -38,7 +46,10 @@ goals 'Голы' = DATA INTEGER (Goals);
 CONSTRAINT (team(player(Goals g)) != guestTeam(date(g))) 
     AND (team(player(g)) != hostTeam(date(g))) 
     MESSAGE 'Команда указанного игрока не играла в данном матче!';
+
+
 count 'Количество голов' = GROUP SUM goals(Goals g) BY player(g);
+
 
 CLASS GameResult 'Р/И' {
     win 'П',
@@ -96,8 +107,8 @@ place 'Место' (Team team) = PARTITION SUM 1
     (OVERRIDE goalsScored(team) (-) goalsConceded(team), 0), goalsScored(team);
 FORM TeamsList 'Список команд'
     OBJECTS  team = Team
-    PROPERTIES(team) name, NEW, DELETE 
-    ORDER name(team)
+    PROPERTIES(team) number, name, NEW, DELETE 
+    ORDER number(team), name(team)
 ;
 
 FORM PlayersList 'Список игроков'

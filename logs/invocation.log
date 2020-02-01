@@ -303,3 +303,22 @@
 01 фев 2020 23:13:33,106  INFO PausableInvocationsLogger - Invocation [f: navigator, m: executeNavigatorAction, rq: 7] finished
 01 фев 2020 23:13:33,106  INFO PausableInvocationsLogger - Releasing request lock for [f: navigator, m: executeNavigatorAction, rq: 7] for request #7
 01 фев 2020 23:13:33,106  INFO PausableInvocationsLogger - Released request lock for [f: navigator, m: executeNavigatorAction, rq: 7] for request #7
+01 фев 2020 23:43:23,876  INFO PausableInvocationsLogger - Acquiring request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+01 фев 2020 23:43:23,877  INFO PausableInvocationsLogger - Acquired request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+01 фев 2020 23:43:23,881  INFO PausableInvocationsLogger - Run invocation: [f: navigator, m: executeNavigatorAction, rq: 0]
+01 фев 2020 23:43:23,958  INFO PausableInvocationsLogger - Invocation [f: navigator, m: executeNavigatorAction, rq: 0] finished
+01 фев 2020 23:43:23,958  INFO PausableInvocationsLogger - Releasing request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+01 фев 2020 23:43:23,958  INFO PausableInvocationsLogger - Released request lock for [f: navigator, m: executeNavigatorAction, rq: 0] for request #0
+01 фев 2020 23:44:32,383  INFO PausableInvocationsLogger - Acquiring request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
+01 фев 2020 23:44:32,384  INFO PausableInvocationsLogger - Acquired request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
+01 фев 2020 23:44:32,384  INFO PausableInvocationsLogger - Run invocation: [f: navigator, m: executeNavigatorAction, rq: 1]
+01 фев 2020 23:44:32,627  INFO PausableInvocationsLogger - Interaction [f: navigator, m: executeNavigatorAction, rq: 1] called delayUserInteraction: FormClientAction[modalitType: DOCKED]
+01 фев 2020 23:44:32,627  INFO PausableInvocationsLogger - Invocation [f: navigator, m: executeNavigatorAction, rq: 1] finished
+01 фев 2020 23:44:32,627  INFO PausableInvocationsLogger - Releasing request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
+01 фев 2020 23:44:32,627  INFO PausableInvocationsLogger - Released request lock for [f: navigator, m: executeNavigatorAction, rq: 1] for request #1
+01 фев 2020 23:44:41,658  INFO PausableInvocationsLogger - Acquiring request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 0] for request #0
+01 фев 2020 23:44:41,658  INFO PausableInvocationsLogger - Acquired request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 0] for request #0
+01 фев 2020 23:44:41,658  INFO PausableInvocationsLogger - Run invocation: [f: Main.TeamsList, m: changePropertyOrder, rq: 0]
+01 фев 2020 23:44:41,676  INFO PausableInvocationsLogger - Invocation [f: Main.TeamsList, m: changePropertyOrder, rq: 0] finished
+01 фев 2020 23:44:41,676  INFO PausableInvocationsLogger - Releasing request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 0] for request #0
+01 фев 2020 23:44:41,677  INFO PausableInvocationsLogger - Released request lock for [f: Main.TeamsList, m: changePropertyOrder, rq: 0] for request #0
