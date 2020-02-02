@@ -65,7 +65,6 @@ guestGoalsByGame = GROUP
     BY game(g);
     CONSTRAINT guestGoalsByGame(Game g) > guestGoals(g) MESSAGE 'Количество голов больше чем в результатах матча!';
 
-
 countGoals 'Количество голов' = GROUP SUM goals(Goals g) BY player(g);
 
 CLASS GameResult 'Р/И' {
@@ -134,20 +133,13 @@ FORM PlayersList 'Список игроков'
     PROPERTIES(players) playerName, teamName, NEW, DELETE
     ORDER teamName(players), playerName(players)
 ;
-FORM GameGoals 'Игры и голы'
+FORM GameGoals 'Матчи и голы'
     OBJECTS game = Game
     PROPERTIES(game) date, hostTeamName, hostGoals, guestGoals, guestTeamName, resultName, NEW, DELETE
     
     OBJECTS goals = Goals
     PROPERTIES(goals) numberGame, playerName, goals, NEW, DELETE
     ORDER numberGame(goals)
-;
-
-FORM BestPlayers 'Бомбардиры'
-    OBJECTS best 'Лучшие игроки' = Players
-    PROPERTIES(best) countGoals, playerName
-    ORDER countGoals(best) DESC, playerName(best) 
-    FILTERS countGoals(best) > 0
 ;
 
 FORM TournamentTable 'Турнирная таблица'
@@ -157,12 +149,19 @@ FORM TournamentTable 'Турнирная таблица'
     ORDER place(team)
 ;
 
+FORM BestPlayers 'Бомбардиры'
+    OBJECTS best 'Лучшие игроки' = Players
+    PROPERTIES(best) countGoals, playerName
+    ORDER countGoals(best) DESC, playerName(best) 
+    FILTERS countGoals(best) > 0
+;
+
 NAVIGATOR {
     NEW FOLDER matches 'Данные о матчах' WINDOW toolbar FIRST {
         NEW TeamsList;
         NEW PlayersList;
         NEW GameGoals;
-        NEW BestPlayers;
         NEW TournamentTable;
+        NEW BestPlayers;
     }
 }
